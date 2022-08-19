@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NetCore50\\Net6\\ProjectTest\\ProjectTest.Tests\\ProjectTest.Tests.csproj": {}
+    "D:\\code\\TRAVIS-CI-JULIO22\\ProjectTest.Tests\\ProjectTest.Tests.csproj": {}
   },
   "projects": {
-    "D:\\NetCore50\\Net6\\ProjectTest\\ProjectTest.Tests\\ProjectTest.Tests.csproj": {
+    "D:\\code\\TRAVIS-CI-JULIO22\\ProjectTest.Tests\\ProjectTest.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCore50\\Net6\\ProjectTest\\ProjectTest.Tests\\ProjectTest.Tests.csproj",
+        "projectUniqueName": "D:\\code\\TRAVIS-CI-JULIO22\\ProjectTest.Tests\\ProjectTest.Tests.csproj",
         "projectName": "ProjectTest.Tests",
-        "projectPath": "D:\\NetCore50\\Net6\\ProjectTest\\ProjectTest.Tests\\ProjectTest.Tests.csproj",
-        "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCore50\\Net6\\ProjectTest\\ProjectTest.Tests\\obj\\",
+        "projectPath": "D:\\code\\TRAVIS-CI-JULIO22\\ProjectTest.Tests\\ProjectTest.Tests.csproj",
+        "packagesPath": "D:\\Users\\pablo.montero\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\TRAVIS-CI-JULIO22\\ProjectTest.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\pablo.montero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,24 +43,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.11.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -70,12 +53,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
