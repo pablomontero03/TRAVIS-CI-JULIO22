@@ -15,4 +15,4 @@ manual_scaling:
 env_variables:
   # The __ in My__Greeting will be translated to a : by ASP.NET.
   Company__Name: "AFORO255"
-  Company__Author: "STYWAR VARGAS"
+  Company__Author: "PABLO MONTERO"
